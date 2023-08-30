@@ -17,4 +17,9 @@ Il topic verr� creato quando l'applicazione viene avviata.*
 @Bean
 public NewTopic javaGuidesTopic() {// Utilizzando TopicBuilder per definire il nome del topic// e costruire un oggetto NewTopic con le configurazioni specificate.
     return TopicBuilder.name("javaguides").build();}
+
+
+@Bean
+public NewTopic javaGuidesJsonTopic() {// Utilizzando TopicBuilder per definire il nome del topic// e costruire un oggetto NewTopic con le configurazioni specificate.
+    return TopicBuilder.name("javaguides_json").build();}
 }
