@@ -23,6 +23,12 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
+	//aggiungendo il costruttore vuoto, non si rompe più
+	public User() {
+		super();
+	}
+	
 	public User(int id, String firstName, String lastName) {
 		super();
 		this.id = id;
